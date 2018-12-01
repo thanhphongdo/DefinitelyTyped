@@ -34,4 +34,8 @@
 /// <reference path="./tooltip.d.ts" />
 /// <reference path="./waves.d.ts" />
 
+declare namespace M {
+    export function AutoInit():void
+}
+
 export = M;
